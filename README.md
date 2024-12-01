@@ -1,29 +1,27 @@
-# TECH CHALLENGE FASE 4
-Tech Challenge é o projeto que engloba os conhecimentos relacionados as disciplinas da fase 4 do curso de pós graduação de Inteligência Artificial para Desenvolvedores da Fiap.
 
-# OBJETIVO DO PROJETO
-  Implementação de uma aplicação de análise de video para facial, análise de expressões emocionais em vídeos e detecção de atividades.
+# Links Referências
 
-## O PROBLEMA
-O Tech Challenge desta fase será a criação de uma aplicação que utilize análise de vídeo.
-O seu projeto deve incorporar as técnicas de reconhecimento facial, análise de expressões emocionais em vídeos e detecção de atividades.
+- [Repositório Github](https://github.com/josehelioaraujo/Grupo51_TechChallenge_Fase4)
+- [Arquivo Google Colab](https://colab.research.google.com/drive/1Xvd8J-hnHnkXCAXROTUwsQOx8J3YOA00#scrollTo=1dOfO9XGIs1S&uniqifier=1)
+- Video Apresentacao
 
-## A PROPOSTA DO DESAFIO
-Você deverá criar uma aplicação a partir do vídeo que se encontra disponível na plataforma do aluno, e que execute as seguintes tarefas:
+  
+#  Instruções para executar o projeto no Google Colab
+ 
+Para executar este projeto no Google Colab, siga estes passos:
 
-1. Reconhecimento facial: Identifique e marque os rostos presentes no vídeo
-2. Análise de expressões emocionais: Analise as expressões emocionais dos rostos identificados
-3. Detecção de atividades: Detecte e categorize as atividades sendo realizadas no vídeo
-4. Geração de resumo: Crie um resumo automático das principais atividades e emoções detectadas no vídeo
+1. **Acesse o link do Google Colab:** Clique no link "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1O3_h3IE6zCa2XWWScFmLnJa3SGRtrmWs#scrollTo=WesQy0DILw-L)"  presente no arquivo README.md do projeto. Isso abrirá o notebook no Google Colab.
 
-## O QUE ESPERAMOS COMO ENTREGÁVEL?
-1. **Código Fonte**: todo o código fonte da aplicação deve ser entregue em um repositório Git, incluindo um arquivo README com instruções claras de como executar o projeto.
-2. **Relatório**: o resumo obtido automaticamente com as principais atividades e emoções detectadas no vídeo. 
+2. **Monte o Google Drive:** Execute a primeira célula do notebook que contém o comando `drive.mount('/content/drive')`. Isso permitirá que o Colab acesse os arquivos do seu Google Drive, se necessário. Você será solicitado a autorizar o acesso.
 
-Nesse momento esperando que o relatório inclua:
-- Total de frames analisados
-- Número de anomalias detectadas
+3. **Execute as células:** Após montar o Drive, você pode executar cada célula do notebook, na ordem sequencial, no nosso caso, executando todas as etapas do projetom na ordem e na seqência em que aparecem na tela do Google Colab, com especial atenção para a 'Etapa de Execução do Projeto', ontem tem as células de 'Função Principal', e para executar o projeto efetivamente, deve-se clicar na célula,  de 'Execução do Projeto'.
+Outra alternativa, seria executar as células tudo de de uma vez, e para isso, deve-se clicar a opção "Runtime" > "Run all" do menu superior do Google Colab.
 
-**Observação**: movimento anômalo não segue o padrão geral de atividades (como gestos bruscos ou comportamentos atípicos) esses são classificados como anômalos.
+4. **Verifique as saídas:** À medida que o código for executado, as saídas, como resultados de análise, e mensagens de log exibidas na tela.
 
-3. **Demonstração em Vídeo**: um vídeo demonstrando a aplicação em funcionamento, evidenciando cada uma das funcionalidades implementadas.
+
+**Observação:**
+- Se o projeto necessitar de arquivos de vídeo ou outros arquivos externos, certifique-se de que eles estejam disponíveis no seu Google Drive ou carregue-os no Colab antes de executar o código.
+- Observe que alguns passos do projeto podem levar algum tempo para serem concluídos, dependendo da complexidade do código e do poder de processamento do Google Colab.
+
+**Com isso, você poderá executar este projeto de análise de vídeo no Google Colab e visualizar os resultados e análises obtidas.**
