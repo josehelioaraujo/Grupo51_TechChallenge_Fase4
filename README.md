@@ -3,7 +3,8 @@
 
 - [Repositório Github](https://github.com/josehelioaraujo/Grupo51_TechChallenge_Fase4)
 - [Arquivo Google Colab](https://colab.research.google.com/drive/1Xvd8J-hnHnkXCAXROTUwsQOx8J3YOA00#scrollTo=1dOfO9XGIs1S&uniqifier=1)
-- Video Apresentacao
+- Video Apresentacao no Youtube
+- [Video Analisado no Youtube](https://www.youtube.com/watch?v=XQOZjYnXNM4)
   
 #  Instruções para executar o projeto no Google Colab
  
