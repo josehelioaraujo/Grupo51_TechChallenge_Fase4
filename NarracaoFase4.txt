@@ -1,0 +1,108 @@
+ 
+Olá a todos! 
+ 
+Vamos apresentar o projeto do Tech Challenge Fase 4, desenvolvido na pós-graduação em Inteligência Artificial para Desenvolvedores da FIAP.
+
+Desenvolvemos um sistema de análise de vídeo que utiliza técnicas avançadas de Visão Computacional
+ para realizar reconhecimento facial e detectar atividades e movimentos corporais e anômalos. 
+ Nossa solução é capaz de identificar rostos, 
+ reconhecer expressões faciais 
+ e detectar movimentos corporais que fogem do padrão esperado.
+
+O desenvolvimento do projeto foi organizado em 5 etapas principais.
+ Na primeira etapa, preparamos todo o ambiente de desenvolvimento,
+ configurando as bibliotecas essenciais como TensorFlow, OpenCV e MediaPipe,
+ além do acesso ao Google Drive para armazenamento.
+ Para manter tudo organizado, criamos duas classes fundamentais: 
+ a ConfigManager e a CustomLogger.
+
+Na segunda etapa, focamos no processamento do vídeo. 
+Utilizamos ferramentas especializadas: 
+o MTCNN para detectar rostos, 
+o MediaPipe Face Mesh para mapear características faciais 
+e o MobileNetV2 para processamento eficiente.
+ Para identificar emoções como alegria, tristeza e surpresa, implementamos a biblioteca FER. 
+ Todo esse processo é gerenciado pela nossa classe VideoProcessor.
+
+Também implementamos, a detecção de movimentos corporais, utilizando o MediaPipe Pose, 
+mapeamos pontos específicos do corpo humano
+ e criamos um sistema para analisar diferentes tipos de movimentos.
+ Nossa análise considera ângulos entre pontos de referência 
+ do corpo para identificar atividades e posturas específicas. 
+ 
+ Duas classes importantes, BodyMovement e AnomalyMovementDetector, foram desenvolvidas para automatizar essa análise.
+ 
+ Para a detecção de anomalias. Criamos um conjunto de regras e padrões
+ que nos permite identificar movimentos incomuns ou suspeitos,
+ ampliando a capacidade de análise do sistema. 
+
+A terceira etapa focou na geração de relatórios visuais. 
+Desenvolvemos um sistema que apresenta um resumo completo das detecções, 
+incluindo contagem de rostos, expressões, movimentos e anomalias identificadas.
+
+ A classe ReportView foi essencial para apresentar esses dados de forma clara e visual.
+
+Durante o desenvolvimento, identificamos alguns desafios importantes.
+ O sistema pode gerar alguns falsos positivos ao analisar vídeos pré-gravados,
+ especialmente na classificação de expressões faciais, 
+ já que a análise é feita quadro a quadro. 
+ Para minimizar esses problemas, 
+ implementamos ajustes nos parâmetros de configuração,
+ como nível de confiança e limiares. 
+ Também criamos classes específicas para configuração e registro de logs, 
+ permitindo um monitoramento constante do sistema.
+
+O resultado final é um sistema robusto
+ que oferece análise completa e detalhada de vídeos, 
+ com flexibilidade para ajustes e relatórios visuais claros.
+
+ Nossa implementação seguiu boas práticas de desenvolvimento, utilizando o paradigma de orientação a objetos,
+ possibilitam a organização modular e flexível , de modo a facilitar futuras expansões.
+
+
+
+Entre os pontos positivos, destacamos:
+O projeto desenvolvido apresenta uma implementação sólida de um sistema de análise de vídeo com detecção de faces, emoções, movimentos e anomalias, demonstrando uma aplicação prática e efetiva de conceitos importantes de engenharia de software.
+
+e Por fim, podemos concluir que o sistema demonstrou ser uma solução viável e promissora,
+ com resultados consistentes e amplo potencial de crescimento. 
+ 
+ Os desafios identificados servirão como base para melhorias futuras
+
+- A implementação bem estruturada usando orientação a objetos
+- A clara separação de responsabilidades entre os detectores
+- O código bem documentado e de fácil manutenção
+- O tratamento adequado de erros
+- A visualização clara das detecções no vídeo processado
+
+Para o futuro, já identificamos possíveis melhorias, como:
+
+- Implementação de um dashboard para métricas
+- Sistema de alertas automáticos
+- Geração automática de relatórios
+- Exportação padronizada de dados
+- Interface visual para configurações
+- Ajuste fino dos parâmetros de detecção
+- Melhorias no controle de qualidade do vídeo
+
+
+E para terminar, gostaria de acrescentar que a experiência no desenvolvimento deste projeto foi extremamente enriquecedora.
+ Os conhecimentos adquiridos em visão computacional,
+ processamento de imagens e detecção de anomalias não apenas expandiram nossa compreensão técnica, 
+ mas também abriram novas possibilidades para aplicações práticas.
+
+Os desafios que enfrentamos nos proporcionaram um aprendizado valioso 
+sobre a implementação de sistemas complexos de análise de vídeo. 
+As técnicas e metodologias que utilizamos 
+podem ser facilmente adaptadas e aplicadas em diversos contextos, 
+desde sistemas de segurança até aplicações em saúde e bem-estar.
+
+Esta experiência certamente servirá como base sólida para projetos futuros,
+ demonstrando o potencial transformador da Inteligência Artificial quando aplicada a problemas do mundo real.
+
+Só lembrando que essa narração foi utilizada uma ferramenta online para conversão de texto para voz, e cujo nome está nas referências do projeto.
+
+Estamos à disposição para responder perguntas e discutir mais detalhadamente qualquer aspecto do projeto.
+
+Muito obrigado pela atenção!
+ 
